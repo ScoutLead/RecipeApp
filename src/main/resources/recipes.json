@@ -1,0 +1,438 @@
+[
+  {
+    "id": "id1",
+    "name": "varenyky",
+    "preparationDuration": 3600,
+    "cookDuration": 300,
+    "ingredients": [
+      {
+        "product": {
+          "id": "Id1",
+          "name": "flour",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id2",
+          "name": "water",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id3",
+          "name": "salt",
+          "type": "MEAT"
+        },
+        "measurementType": "teaspoon",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id4",
+          "name": "egg",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id5",
+          "name": "potato",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 4
+      },
+      {
+        "product": {
+          "id": "Id6",
+          "name": "onion",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id7",
+          "name": "sunflower oil",
+          "type": "MEAT"
+        },
+        "measurementType": "tablespoon",
+        "count": 3
+      }
+    ],
+    "directions": [
+      {
+        "order": 1,
+        "description": "some do"
+      },
+      {
+        "order": 2,
+        "description": "some do"
+      },
+      {
+        "order": 3,
+        "description": "some do"
+      },
+      {
+        "order": 4,
+        "description": "some do"
+      }
+    ]
+  },
+  {
+    "id": "id2",
+    "name": "varenyky with chery",
+    "preparationDuration": 3600,
+    "cookDuration": 300,
+    "ingredients": [
+      {
+        "product": {
+          "id": "Id1",
+          "name": "flour",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id2",
+          "name": "water",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id3",
+          "name": "salt",
+          "type": "MEAT"
+        },
+        "measurementType": "teaspoon",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id4",
+          "name": "egg",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id8",
+          "name": "cherry",
+          "type": "MEAT"
+        },
+        "measurementType": "gram",
+        "count": 500
+      },
+      {
+        "product": {
+          "id": "Id7",
+          "name": "sunflower oil",
+          "type": "MEAT"
+        },
+        "measurementType": "tablespoon",
+        "count": 3
+      }
+    ],
+    "directions": [
+      {
+        "order": 1,
+        "description": "some do"
+      },
+      {
+        "order": 2,
+        "description": "some do"
+      },
+      {
+        "order": 3,
+        "description": "some do"
+      },
+      {
+        "order": 4,
+        "description": "some do"
+      }
+    ]
+  },
+  {
+    "id": "id3",
+    "name": "varenyky with cottage cheese",
+    "preparationDuration": 3600,
+    "cookDuration": 300,
+    "ingredients": [
+      {
+        "product": {
+          "id": "Id1",
+          "name": "flour",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id2",
+          "name": "water",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id3",
+          "name": "salt",
+          "type": "MEAT"
+        },
+        "measurementType": "teaspoon",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id4",
+          "name": "egg",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id8",
+          "name": "cottage cheese",
+          "type": "MEAT"
+        },
+        "measurementType": "gram",
+        "count": 500
+      },
+      {
+        "product": {
+          "id": "Id7",
+          "name": "sunflower oil",
+          "type": "MEAT"
+        },
+        "measurementType": "tablespoon",
+        "count": 3
+      }
+    ],
+    "directions": [
+      {
+        "order": 1,
+        "description": "some do"
+      },
+      {
+        "order": 2,
+        "description": "some do"
+      },
+      {
+        "order": 3,
+        "description": "some do"
+      },
+      {
+        "order": 4,
+        "description": "some do"
+      }
+    ]
+  },
+  {
+    "id": "id4",
+    "name": "varenyky with potatoes and mushrooms",
+    "preparationDuration": 3600,
+    "cookDuration": 300,
+    "ingredients": [
+      {
+        "product": {
+          "id": "Id1",
+          "name": "flour",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id2",
+          "name": "water",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id3",
+          "name": "salt",
+          "type": "MEAT"
+        },
+        "measurementType": "teaspoon",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id4",
+          "name": "egg",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id5",
+          "name": "potato",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 4
+      },
+      {
+        "product": {
+          "id": "Id10",
+          "name": "mushroom",
+          "type": "MEAT"
+        },
+        "measurementType": "gram",
+        "count": 300
+      },
+      {
+        "product": {
+          "id": "Id6",
+          "name": "onion",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id7",
+          "name": "sunflower oil",
+          "type": "MEAT"
+        },
+        "measurementType": "tablespoon",
+        "count": 3
+      }
+    ],
+    "directions": [
+      {
+        "order": 1,
+        "description": "some do"
+      },
+      {
+        "order": 2,
+        "description": "some do"
+      },
+      {
+        "order": 3,
+        "description": "some do"
+      },
+      {
+        "order": 4,
+        "description": "some do"
+      }
+    ]
+  },
+  {
+    "id": "id5",
+    "name": "varenychky",
+    "preparationDuration": 3600,
+    "cookDuration": 300,
+    "ingredients": [
+      {
+        "product": {
+          "id": "Id1",
+          "name": "flour",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id2",
+          "name": "water",
+          "type": "MEAT"
+        },
+        "measurementType": "cup",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id3",
+          "name": "salt",
+          "type": "MEAT"
+        },
+        "measurementType": "teaspoon",
+        "count": 0.5
+      },
+      {
+        "product": {
+          "id": "Id4",
+          "name": "egg",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id5",
+          "name": "potato",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 4
+      },
+      {
+        "product": {
+          "id": "Id6",
+          "name": "onion",
+          "type": "MEAT"
+        },
+        "measurementType": "thing",
+        "count": 1
+      },
+      {
+        "product": {
+          "id": "Id7",
+          "name": "sunflower oil",
+          "type": "MEAT"
+        },
+        "measurementType": "tablespoon",
+        "count": 3
+      }
+    ],
+    "directions": [
+      {
+        "order": 1,
+        "description": "some do"
+      },
+      {
+        "order": 2,
+        "description": "some do"
+      },
+      {
+        "order": 3,
+        "description": "some do"
+      },
+      {
+        "order": 4,
+        "description": "some do"
+      }
+    ]
+  }
+]
