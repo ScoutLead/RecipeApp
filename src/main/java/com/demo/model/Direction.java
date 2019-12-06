@@ -6,11 +6,6 @@ public class Direction {
 
   private String description;
 
-//  public Direction(int order, String description) {
-//    this.order = order;
-//    this.description = description;
-//  }
-
   public int getOrder() {
     return order;
   }

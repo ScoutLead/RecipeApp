@@ -4,12 +4,6 @@ public class Ingredient {
   private Product product;
   private String measurementType;
   private int count;
-//
-//  public Ingredient(Product product, String measurementType, int count) {
-//    this.product = product;
-//    this.measurementType = measurementType;
-//    this.count = count;
-//  }
 
   public Product getProduct() {
     return product;
