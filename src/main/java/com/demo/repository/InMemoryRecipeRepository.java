@@ -60,7 +60,7 @@ public class InMemoryRecipeRepository implements RecipeRepository {
         .allMatch(inc -> ingredients.stream().anyMatch(ingredient ->
             inc.equals(ingredient.getProduct().getName()))) &&
         excludeIngredients.stream().allMatch(exc ->
-            ingredients.stream().noneMatch(ingr ->
-                exc.equals(ingr.getProduct().getName())));
+            ingredients.stream().noneMatch(ingredient ->
+                exc.equals(ingredient.getProduct().getName())));
   }
 }
