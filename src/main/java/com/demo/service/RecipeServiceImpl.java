@@ -1,9 +1,6 @@
 package com.demo.service;
 
-import com.demo.model.Ingredient;
-import com.demo.model.Product;
 import com.demo.model.Recipe;
-
 import com.demo.repository.RecipeRepository;
 import java.util.List;
 import java.util.Optional;
@@ -32,11 +29,7 @@ public class RecipeServiceImpl implements RecipeService {
   @Override
   public List<Recipe> findRecipesByNameWithIngredients(String name,
       List<String> includeIngredients, List<String> excludeIngredients) {
-    if(includeIngredients.isEmpty() && excludeIngredients.isEmpty()) {
-      return recipeRepository.findByName(name);
-    } else {
       return recipeRepository
           .findByNameAndIncludingIngredientsAndExcludingIngredients(name, includeIngredients, excludeIngredients);
-    }
   }
 }

@@ -7,8 +7,6 @@ import java.util.Optional;
 public interface RecipeRepository {
   Optional<Recipe> findById(String id);
 
-  List<Recipe> findByName(String name);
-
   List<Recipe> findAll();
 
   List<Recipe> findByNameAndIncludingIngredientsAndExcludingIngredients(String name,

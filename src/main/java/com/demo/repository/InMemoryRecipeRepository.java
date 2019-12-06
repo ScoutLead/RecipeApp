@@ -13,14 +13,15 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import javax.enterprise.context.ApplicationScoped;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 @ApplicationScoped
 public class InMemoryRecipeRepository implements RecipeRepository {
 
   private List<Recipe> recipes;
 
-  public InMemoryRecipeRepository() {
-    try (InputStream input = getClass().getClassLoader().getResourceAsStream("recipes.json")) {
+  public InMemoryRecipeRepository(@ConfigProperty(name = "recipes.file.name") String fileName) {
+    try (InputStream input = getClass().getClassLoader().getResourceAsStream(fileName)) {
       ObjectMapper objectMapper = new ObjectMapper();
       objectMapper.registerModule(new JavaTimeModule());
       recipes = objectMapper.readValue(input, new TypeReference<List<Recipe>>() {
@@ -37,12 +38,6 @@ public class InMemoryRecipeRepository implements RecipeRepository {
     return recipes.stream()
         .filter(r -> r.getId().equals(id))
         .findFirst();
-  }
-
-  @Override
-  public List<Recipe> findByName(String name) {
-    return recipes.stream().filter(r -> r.getName().contains(name))
-        .collect(Collectors.toList());
   }
 
   @Override
